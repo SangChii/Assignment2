@@ -11,9 +11,6 @@ def findingFiles(): #function that finds files
         file = open("random.txt", "w") #open the file 
         #print out existing content
         print (file.read())
-        #then re-write the file with new random text data
-        
-        #and print out the new test data.
     else:
         print("No such file exists")
         
